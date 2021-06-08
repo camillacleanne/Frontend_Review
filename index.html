@@ -1,65 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Central atualidades COVID-19</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Meu Perfil</title>
+   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <ul>
-        <li>
-            <a href="index.html">Home</a>
-        </li>
-        <li>
-            <a href="https://brazil.generation.org/contato/">Contato</a>
-            </li>
-    </ul>
-    <h1>
-       Sobre o Coronavirus 
-    </h1>
-   <p>
+   <ul id="menu">
+      <li>
+         <a href="index.html"> Home </a>
+      </li>
+      <li>
+         <a href="contato.html"> Contato </a>
+      </li>
+   </ul>
 
-    Mortes de idosos acima de 80 anos caem pela metade
-    Um estudo recente realizado pela Universidade Federal de Pelotas (UFPel), no Rio Grande do Sul, 
-    mostra que caiu pela metade a proporção de 
-    mortes de idosos com 80 anos ou mais no Brasil após o início da 
-    acinação contra a covid-19.
-</p>
-<p>
-    A taxa de mortalidade era de 25% a 30% em 2020 e passou para 13% no fim de abril.
-    Quando a vacinação começou, em janeiro deste ano, o percentual era de 28%.
-    Segundo os responsáveis pelo estudo, os dados confirmam evidências já observadas em outros países, como Israel, 
-    mas a novidade é que, pela primeira vez, foi verificada queda de internações e mortes em um cenário com predominância
-     da variante P1.
-    A variante P1 foi descoberta em Manaus (Amazonas) e hoje responde pela maior parte dos casos no Brasil.
-</p>
-<p>
-    Profissionais de saúde estão morrendo menos
-Profissionais de saúde, como médico e enfermeiros,
-que atuam na linha de frente do combate à covid-19, também estão morrendo em menor número.
-</p>
-<img src="../Frontend_Review/assets/Virus.png" alt="Foto do virus coronavirus">
+   <h1 class="center">Sobre o Virus</h1>
+   <div class="container">
 
-<h2>Notícias</h2>
+      <div>
+         <img class="br-50 wh-300 p-30" src="./assets/Virus.png" alt="Foto do criador desse conteudo">
+      </div>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8tZrkuGdrLQ" title="YouTube video player" 
-frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
+      <div class="p-30">
+         <p class="justify">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem odio possimus, dolorem earum atque itaque quas soluta placeat iure omnis porro cum debitis sequi libero! Deleniti vitae quis hic cumque.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius inventore ullam, quia deserunt enim cumque hic officia repudiandae ad ab et sapiente qui vitae accusamus adipisci provident sit assumenda laboriosam!
+         </p>
+         <p class="justify">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus tempore et pariatur, illo fugit, architecto autem aperiam, dignissimos dolore eius tenetur sunt illum inventore asperiores officia voluptates expedita explicabo perspiciatis!  
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates distinctio velit, eveniet placeat reiciendis, eum et tempora fuga doloribus repellendus, possimus rem tempore ipsam aut eligendi beatae quidem saepe temporibus.
+         </p>
+      </div>
+   </div>
 
-<form>
-    <label for="nome">Nome:</label>  <br>
-    <input type="text" id="nome">
-    <br>
-    <br>
-    <label for="email">Email:</label>  <br>
-    <input type="email" id="email">
-    <br>
-    <br>
-    <label for="assunto">Assunto:</label>  <br>
-    <testarea name="assunto" id="assunto" cols="60" rows="5"></testarea>
-    <br>
-    <button> Enviar</button>
-</form>
+   <h2 class="center">Meu video predileto:</h2>
+
+   <div class="container mb-50">
+      <iframe 
+      width="560" 
+      height="315" 
+      src="https://www.youtube.com/embed/tYCXQoo-doM" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen
+      ></iframe>
+   </div>
+   <hr>
+   <footer>
+
+      <div class="container">
+         <a href="https://www.facebook.com/" target="_blank">
+            <img class="tm-social p-30" src="assets/img/facebook.png" alt="Logo do Facebook">
+         </a>
+         
+         <a href="https://www.linkedin.com/" target="_blank">
+            <img class="tm-social p-30" src="assets/img/linkedin.png" alt="Logo do Linkedin">
+         </a>
+         
+         <a href="https://www.instagram.com/" target="_blank">
+            <img class="tm-social p-30" src="assets/img/instagram.png" alt="Logo do Intagram">
+         </a>
+         
+      </div>
+
+      <p class="center">
+        Todos os direitos reservados
+      </p> 
+   </footer>
 </body>
 </html>
